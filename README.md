@@ -1,1 +1,44 @@
 # index.html
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>The Band</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<body>
+
+    <!-- Navigation (Stays on Top) -->
+    <div class="navbar">
+        <div class="navbar-items">
+            <div class="text-with-navbar">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#members" class="w3-bar-item w3-button">Members</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Content -->
+    <div id="home" class="w3-content">
+
+        <!-- Image -->
+        <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="The Band" style="width:100%">
+        <h1 class="headline">Welcome To E Crop</h1>
+        <!-- End Content -->
+    </div>
+
+
+    <!-- About -->
+    <div id="about" class="w3-container w3-padding-32">
+        <h1 class="w3-center">The Band</h1>
+        <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</body>
+
+</html>
